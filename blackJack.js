@@ -22,7 +22,6 @@ function getRandomCard(){
 }
 }
 
-
 function startGame() { 
     isAlive = true
     let firstCard = getRandomCard()
