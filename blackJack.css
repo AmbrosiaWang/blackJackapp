@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(147, 205, 147);
+    
+}
+
+h1{
+    color: rgb(94, 69, 33);
+    font-size: 50px;
+    margin: 10px 0;
+
+}
+
+#player-el{
+    color: rgb(45, 118, 92);
+    font-size: 20px;
+    margin: 10px 0;
+
+ 
+}
+
+#message-el{
+    color: rgb(101, 101, 134);
+    font-size: 30px;
+}
+#cards-el,#sum-el{
+    font-size: 25px;
+    margin: 10px 0;
+
+}
+
+button{
+    color: green;
+    width: 150px;
+    background-color: goldenrod;
+    margin: 20px 0;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 5px 5px 3px rgb(9, 69, 26);
+    border: none;
+    transition: color .3s, background-color .3s;
+}
+
+button:hover{
+    color: rgb(88, 137, 88);
+    background-color: rgb(221, 204, 159);
+}
